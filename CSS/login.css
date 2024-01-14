@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c63d2f;
+  overflow: hidden;
+  height: 100vh;
+}
+#di-preloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: #c63d2f url("/images/loader-fk.gif") no-repeat center center;
+}
+
+.di-logo-colored img {
+  position: absolute;
+  left: 34%;
+  top: 25%;
+}
+
+.di-logo-colored h1 {
+  color: #ffbb5c;
+  position: absolute;
+  letter-spacing: 10px;
+  left: 25%;
+  font-size: 500%;
+  top: 35%;
+  z-index: 1;
+}
+.di-logo-colored h1 span {
+  color: #c63d2f;
+}
+.di-container {
+  position: relative;
+  background-color: #ffbb5c;
+  left: 42%;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.di-card {
+  height: 75%;
+  width: 25%;
+  position: relative;
+  border-radius: 4%;
+  left: 10%;
+  top: 15%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 254, 254, 0.3),
+    rgba(255, 254, 254, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 6px 6px 10px;
+  z-index: 2;
+}
+.di-card form {
+  margin-left: 15%;
+  position: relative;
+  top: 25%;
+  color: #c63d2f;
+}
+.di-card form input {
+  background: transparent;
+  color: #c63d2f;
+  margin-bottom: 25%;
+  width: 80%;
+  position: relative;
+  font-size: 140%;
+  border: none;
+  border-bottom: 3px solid #c63d2f;
+}
+.di-card a {
+  position: relative;
+  top: 20%;
+  left: 30%;
+  text-decoration: none;
+  color: #c63d2f;
+}
+.di-btn {
+  position: relative;
+  top: 15%;
+  left: -15%;
+  background-color: #c63d2f;
+  height: 7%;
+  width: 35%;
+  border-radius: 4px;
+  border: none;
+  color: #ffbb5c;
+}
+.di-btn:hover {
+  background-color: rgba(255, 254, 254, 0.3);
+  border: 2px solid #c63d2f;
+  color: #c63d2f;
+  transition: all 0.5s;
+}
+.di-form a {
+  display: inline;
+}
+/* ! responsive part */
+@media only screen and (max-width: 1300px) {
+  .di-card {
+    width: 70%;
+  }
+  .di-container {
+    width: 51.9%;
+    left: 48%;
+  }
+}
+@media only screen and (max-width: 1145px) {
+  .di-card {
+    width: 70%;
+    height: 60%;
+  }
+  .di-container {
+    width: 40%;
+    height: 100%;
+    left: 48%;
+    background-color: #c63d2f;
+  }
+  .di-logo-colored h1 span {
+    color: #ffbb5c;
+  }
+  .di-logo-colored img {
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    z-index: 2;
+  }
+  ::placeholder {
+    color: white;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .di-card {
+    width: 100%;
+  }
+  .di-container {
+    left: 20%;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 433px) {
+  .di-card {
+    width: 100%;
+  }
+  .di-container {
+    left: 10%;
+    width: 70%;
+  }
+}

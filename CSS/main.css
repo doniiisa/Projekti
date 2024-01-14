@@ -1,0 +1,322 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c63d2f;
+  overflow: hidden;
+  height: 100vh;
+}
+#di-preloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: #c63d2f url("/images/loader-fk.gif") no-repeat center center;
+}
+.di-logo img {
+  position: relative;
+  left: 5%;
+  width: 8%;
+}
+.di-card {
+  width: 50%;
+}
+.di-card img {
+  position: relative;
+  left: 35%;
+  width: 40%;
+}
+.di-card h1 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: white;
+  font-size: 450%;
+  font-family: "Italiana", sans-serif;
+  -webkit-text-fill-color: #ffbb5c;
+}
+.di-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  background-color: #ffbb5c;
+  height: 100%;
+}
+.di-container h1 {
+  color: #c63d2f;
+  font-size: 400%;
+  position: relative;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+}
+.di-container a {
+  color: #c63d2f;
+  text-decoration: none;
+}
+.di-container ul {
+  text-align: center;
+}
+.di-container ul li {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  color: #c63d2f;
+  font-size: 150%;
+  margin-left: 5%;
+}
+.di-container img {
+  position: relative;
+  width: 40%;
+  left: 30%;
+  z-index: 1;
+}
+
+/* ! Responsiveness */
+
+@media only screen and (max-width: 1137px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #c63d2f;
+    overflow: hidden;
+    height: 100vh;
+  }
+  #di-preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #c63d2f url("/images/loader-fk.gif") no-repeat center center;
+  }
+  .di-logo img {
+    position: relative;
+    left: 5%;
+    width: 15%;
+  }
+  .di-card {
+    width: 50%;
+  }
+  .di-card img {
+    position: relative;
+    left: 35%;
+
+    width: 50%;
+  }
+  .di-card h1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: white;
+    font-size: 450%;
+    font-family: "Italiana", sans-serif;
+    -webkit-text-fill-color: #ffbb5c;
+  }
+  .di-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    background-color: #ffbb5c;
+    height: 100%;
+  }
+  .di-container h1 {
+    color: #c63d2f;
+    font-size: 400%;
+    margin-top: 20%;
+    position: relative;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+  }
+  .di-container a {
+    color: #c63d2f;
+    text-decoration: none;
+  }
+  .di-container ul {
+    text-align: left;
+    margin-top: 10%;
+  }
+  .di-container ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #c63d2f;
+    font-size: 120%;
+    margin-left: 3%;
+  }
+  .di-container img {
+    position: relative;
+    width: 50%;
+
+    left: 25%;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 883px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #c63d2f;
+    overflow: hidden;
+    height: 100vh;
+  }
+  #di-preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #c63d2f url("/images/loader-fk.gif") no-repeat center center;
+  }
+  .di-logo img {
+    position: relative;
+    left: 5%;
+    width: 15%;
+  }
+  .di-card {
+    width: 40%;
+  }
+  .di-card img {
+    position: relative;
+    left: 35%;
+    margin-top: 15%;
+    width: 50%;
+  }
+  .di-card h1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-size: 300%;
+    font-family: "Italiana", sans-serif;
+    -webkit-text-fill-color: #ffbb5c;
+  }
+  .di-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    background-color: #ffbb5c;
+    height: 100%;
+  }
+  .di-container h1 {
+    color: #c63d2f;
+    font-size: 300%;
+    margin-top: 20%;
+    position: relative;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+  }
+  .di-container a {
+    color: #c63d2f;
+    text-decoration: none;
+  }
+  .di-container ul {
+    text-align: left;
+    margin-top: 10%;
+  }
+  .di-container ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #c63d2f;
+    font-size: 110%;
+    margin-left: 3%;
+  }
+  .di-container img {
+    position: relative;
+    width: 50%;
+    /* margin-top: 20%; */
+    left: 30%;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 774px) {
+  .di-card img {
+    position: relative;
+    left: 35%;
+    margin-top: 15%;
+    width: 50%;
+  }
+  .di-card h1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-size: 300%;
+    font-family: "Italiana", sans-serif;
+    -webkit-text-fill-color: #ffbb5c;
+  }
+
+  .di-container h1 {
+    color: #c63d2f;
+    font-size: 300%;
+    margin-top: 20%;
+    position: relative;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+  }
+
+  .di-container ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #c63d2f;
+    font-size: 100%;
+    margin-left: 3%;
+  }
+  .di-container img {
+    position: relative;
+    width: 50%;
+    /* margin-top: 20%; */
+    left: 30%;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 774px) {
+  .di-container ul {
+    display: none;
+  }
+}
+@media only screen and (max-width: 574px) {
+  .di-logo img {
+    position: relative;
+    left: 5%;
+    width: 25%;
+  }
+  .di-card h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 200%;
+    font-family: "Italiana", sans-serif;
+    -webkit-text-fill-color: #ffbb5c;
+  }
+
+  .di-container ul {
+    display: none;
+  }
+  .di-card img {
+    position: relative;
+    left: 35%;
+    margin-top: 15%;
+    width: 70%;
+  }
+  .di-container img {
+    position: relative;
+    width: 70%;
+    margin-top: 20%;
+    left: 10%;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .di-container h1 {
+    font-size: 190%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .di-container h1 {
+    font-size: 180%;
+  }
+}

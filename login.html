@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thrift Shop</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/login.css" />
+  </head>
+
+  <body id="thrift-shop">
+    <div id="di-preloader"></div>
+    <div class="di-logo-colored">
+      <img src="images/Vector 2.png" alt="" />
+      <h1 class="di-logo-title">
+        Thrift <span class="di-title-color">Shop</span>
+      </h1>
+    </div>
+    <div class="di-container">
+      <div class="di-card">
+        <form>
+          <input type="email" placeholder="Email" required />
+          <br />
+          <input type="password" placeholder="Password" required />
+        </form>
+        <a href="forgotpsw.html"><h4>Forgot password?</h4></a>
+
+        <a href="home.html">
+          <button class="di-btn" type="submit">Login</button></a
+        >
+        <a href="signup.html">
+          <button class="di-btn" type="submit">Signup</button></a
+        >
+      </div>
+    </div>
+    <script>
+      var loader = document.getElementById("di-preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+    <iframe
+      width="560"
+      height="315"
+      style="display: none"
+      src="https://www.youtube.com/embed/DEhxCmjUbNI?si=jyYj--vwMI1S4cFU"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

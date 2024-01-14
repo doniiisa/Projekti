@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c63d2f;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#di-preloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1001;
+  background: #c63d2f url("/images/loader-fk.gif") no-repeat center center;
+}
+
+.di-logo img {
+  position: relative;
+  left: 5%;
+  width: 8%;
+}
+
+.di-card {
+  width: 50%;
+}
+
+.di-card img {
+  position: relative;
+  left: 28%;
+  width: 40%;
+}
+
+.di-card h1 {
+  position: absolute;
+  top: 50%;
+  letter-spacing: 6px;
+  left: 25%;
+  z-index: 111;
+  color: white;
+  font-size: 400%;
+  letter-spacing: 12px;
+  font-family: "Italiana", sans-serif;
+  -webkit-text-fill-color: #ffbb5c;
+}
+
+.di-card p {
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+  color: #ffbb5c;
+  letter-spacing: 2px;
+}
+
+.di-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  background-color: #ffbb5c;
+  height: 100%;
+}
+
+.di-container h1 {
+  color: #c63d2f;
+  font-size: 75px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+}
+
+.di-container a {
+  color: #c63d2f;
+  text-decoration: none;
+}
+
+.di-container ul {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.di-container ul li {
+  letter-spacing: 5px;
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  color: #c63d2f;
+  font-size: 20px;
+  margin-left: 3%;
+}
+
+.di-dropdown {
+  display: none;
+}
+
+.di-container img {
+  position: relative;
+  top: 9%;
+  left: -15%;
+  z-index: 1;
+}
+
+.di-container .di-btn {
+  cursor: pointer;
+  padding: 10px 0;
+  position: relative;
+  top: 120px;
+  left: 270px;
+  color: #ffbb5c;
+  width: 200px;
+  background-color: #c63d2f;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  font-size: 19px;
+}
+
+/* !Responsiveness */
+@media screen and (max-width: 1475px) {
+  .di-container ul li {
+    letter-spacing: 2px;
+  }
+  .di-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1310px) {
+  .di-card img {
+    width: 55%;
+  }
+  .di-container img {
+    width: 90%;
+    top: 9%;
+    left: 5%;
+  }
+  .di-card h1 {
+    top: 45%;
+  }
+  .di-card p {
+    top: 65%;
+    left: 14%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1310px) {
+  .di-card img {
+    border-radius: 2%;
+    left: 10%;
+    z-index: 2;
+  }
+  .di-card h1 {
+    left: 10%;
+  }
+  .di-card P {
+    left: 10%;
+    z-index: 2;
+  }
+  .di-container{
+    width: 60%;
+    left: 20%;
+    background-color: #c63d2f;
+  }
+  .di-container img{
+    left: 10%;
+  }
+  .di-container .di-btn{
+    left: 60%;
+    background-color: #ffbb5c;
+    color: #c63d2f;
+  }
+  .di-container ul li{
+    background-color: #c63d2f;
+    color: #ffbb5c;
+    width: 100%;
+    left: -50px;
+    margin-bottom: 2%;
+  }
+  .di-container ul li a{
+   color:#ffbb5c;
+  }
+}
+@media screen and (max-width:895px){
+    .di-logo img{
+        width: 15%;
+    }
+    
+    .di-container ul li {
+        margin-left: 5px;
+    }
+    .di-card h1{
+        left: 5%;
+    }
+    .di-card p{
+        left: 5%;
+    }
+}
+@media screen and (max-width:811px) {
+    .di-container ul li{
+        z-index: 2;
+        display: block;
+}
+.di-container .di-btn{
+    position: relative;
+    left: 40%;
+}
+}
+@media screen and (max-width:511){
+    .di-btn{
+        font-size: 1em;
+        
+    }
+}
+/* !Responsiveness end*/
+/*! forgot password part */
+.di-psw {
+  position: relative;
+  top: 100px;
+  left: 210px;
+  color: #ffbb5c;
+  width: 300px;
+  background-color: #c63d2f;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  font-size: 29px;
+  border-radius: 15px;
+}
+
+.di-psw-text {
+  position: relative;
+  top: 100px;
+  left: 70px;
+  color: #ffbb5c;
+  width: 600px;
+  background-color: #c63d2f;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.di-psw-form {
+  position: relative;
+  padding: 20px;
+  top: 100px;
+  left: 210px;
+  color: #ffbb5c;
+  width: 300px;
+  background-color: #c63d2f;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.di-reset {
+  position: relative;
+  top: 100px;
+  color: #ffbb5c;
+  width: 300px;
+  background-color: #c63d2f;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+}
+
+.di-logo-colored h1 {
+  color: #ffbb5c;
+  position: absolute;
+  letter-spacing: 10px;
+  left: 10%;
+  font-size: 80px;
+  top: 35%;
+  z-index: 1;
+}
+
+.di-logo-colored img {
+  position: absolute;
+  left: 22%;
+  top: 25%;
+}
+.none{
+  display: none;
+}
+/* !responsiveness */
+@media screen and (max-width: 433px) {
+  .di-logo-title{
+    display: none;
+  }
+  .di-psw{
+   left: 0;
+  }
+  .none{
+    display: block;
+  }
+  .di-psw-text{
+    text-align: left;
+    left: -21%;
+  }
+  .di-psw-form{
+    left: -18%;
+  }
+}
+/*! end of forgot password part */
